@@ -1,0 +1,183 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url(images/bg-desktop.svg);
+	background-color: hsl(257, 40%, 49%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px 40px;
+}
+
+header {
+	padding-bottom: 40px;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700px;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+p {
+	margin-bottom: 30px;
+	font-size: 20px;
+	line-height: 2rem;
+}
+
+.container {
+	position: relative;
+	display: flex;
+}
+
+.section {
+	flex: 0 50%;
+}
+
+.mockup-size {
+	width: 800px;
+}
+
+.left-content {
+	padding: 40px;
+}
+
+.right-content {
+	color: #fff;
+	padding: 40px;
+}
+
+.register {
+	background-color: #fff;
+	color: #b3a6d2;
+	padding: 10px 30px;
+	font-size: 12px;
+	width: 15%;
+	text-align: center;
+	border-radius: 40px;
+	box-shadow: 5px 5px 5px #483e63;
+}
+
+.icons-social {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	padding: 0 40px 0 0;
+}
+
+.icons-social ul {
+	list-style: none;
+}
+
+.icons-social ul li {
+	display: inline-block;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	border: 1px solid #fff;
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+}
+
+footer {
+	color: #fff;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+	.container {
+		display: block;
+	}
+
+	.icons-social {
+		bottom: 40px
+	}
+
+}
+
+@media screen and (max-width:900px) {
+	.container {
+		display: block;
+	}
+
+	.mockup-size {
+		width: 600px;
+	}
+
+	.icons-social {
+		bottom: 40px
+	}
+
+}
+
+@media screen and (max-width:460px) {
+	body {
+		background-image: url(images/bg-mobile.svg);
+		background-color: hsl(257, 40%, 49%);
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 20px;
+	}
+
+	h1 {
+		text-align: center;
+		font-size: 20px;
+	}
+
+	p {
+		text-align: center;
+		font-size: 15px;
+		line-height: 1.3rem;
+	}
+
+	.container {
+		position: relative;
+		display: block;
+	}
+
+	.left-content {
+		padding: 40px;
+	}
+
+	.right-content {
+		padding: 0px;
+	}
+
+	.mockup-size {
+		width: 300px;
+	}
+
+	.register {
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+
+	.icons-social {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		padding: 0px;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width:360px) {
+	.left-content {
+		padding: 15px;
+	}
+
+}
